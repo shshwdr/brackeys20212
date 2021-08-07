@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class CameraControl : MonoBehaviour
 {
+    public float minCemeraZoomIn;
     // Start is called before the first frame update
     void Start()
     {

@@ -24,13 +24,36 @@ public class ClickMove : MonoBehaviour
         if (!p.error)
         {
             path = p;
-            currentWaypoint = 0;
+            currentWaypoint = 1;
+            for (; currentWaypoint < path.vectorPath.Count - 1; currentWaypoint++)
+            {
+                float dToCurrent = Vector2.Distance(rb.position, path.vectorPath[currentWaypoint]);
+                float dToNext = Vector2.Distance(rb.position, path.vectorPath[currentWaypoint + 1]);
+                if (dToCurrent >= dToNext)
+                {
+                    currentWaypoint++;
+                }
+                else
+                {
+                    Vector2 dirToCurrent = (Vector2)path.vectorPath[currentWaypoint] - rb.position;
+                    Vector2 dirToNext = (Vector2)path.vectorPath[currentWaypoint + 1] - rb.position;
+                    float dot = Vector2.Dot(dirToCurrent, dirToNext);
+                    if (dot <= 0)
+                    {
+                        currentWaypoint++;
+                    }
+                    else
+                    {
+                        break;
+                    }
+                }
+            }
         }
     }
     // Start is called before the first frame update
     void Start()
     {
-        
+
     }
 
     // Update is called once per frame
@@ -73,7 +96,9 @@ public class ClickMove : MonoBehaviour
         float distance = Vector2.Distance(rb.position, path.vectorPath[currentWaypoint]);
         if (distance < nextWaypointDistance)
         {
+
             currentWaypoint++;
+
         }
     }
 }
