@@ -35,6 +35,8 @@ public class IsometricSpineRenderer : MonoBehaviour
 
             skeleton.skeleton.FlipX = false;
         }
+
+        animator.SetFloat("speed", dir.magnitude);
     }
 
     // Start is called before the first frame update
