@@ -1,0 +1,76 @@
+
+niceboi.png
+size: 999,399
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+body_back
+  rotate: true
+  xy: 2, 2
+  size: 109, 551
+  orig: 2048, 2048
+  offset: 1024, 463
+  index: -1
+body_front
+  rotate: true
+  xy: 2, 113
+  size: 284, 561
+  orig: 2048, 2048
+  offset: 1024, 461
+  index: -1
+eyes
+  rotate: true
+  xy: 763, 8
+  size: 36, 37
+  orig: 2048, 2048
+  offset: 1028, 982
+  index: -1
+face
+  rotate: true
+  xy: 763, 46
+  size: 100, 169
+  orig: 2048, 2048
+  offset: 1029, 855
+  index: -1
+helmet
+  rotate: true
+  xy: 555, 6
+  size: 105, 206
+  orig: 2048, 2048
+  offset: 1023, 818
+  index: -1
+helmet_back
+  rotate: true
+  xy: 934, 64
+  size: 101, 63
+  orig: 2048, 2048
+  offset: 1026, 961
+  index: -1
+palm_back
+  rotate: false
+  xy: 908, 236
+  size: 76, 79
+  orig: 2048, 2048
+  offset: 1024, 945
+  index: -1
+palm_front
+  rotate: true
+  xy: 908, 317
+  size: 80, 78
+  orig: 2048, 2048
+  offset: 1024, 946
+  index: -1
+palms_hold
+  rotate: false
+  xy: 908, 167
+  size: 89, 67
+  orig: 2048, 2048
+  offset: 1024, 957
+  index: -1
+sword
+  rotate: true
+  xy: 565, 148
+  size: 249, 341
+  orig: 2048, 2048
+  offset: 1032, 680
+  index: -1

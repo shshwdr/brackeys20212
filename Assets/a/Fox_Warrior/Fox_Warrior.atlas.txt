@@ -1,0 +1,202 @@
+
+Fox_Warrior.png
+size: 1028,1360
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+500_ref_top
+  rotate: false
+  xy: 358, 146
+  size: 354, 178
+  orig: 2048, 1012
+  offset: 766, 659
+  index: -1
+Armor
+  rotate: false
+  xy: 706, 3
+  size: 139, 65
+  orig: 1024, 1032
+  offset: 773, 276
+  index: -1
+Arrow
+  rotate: true
+  xy: 922, 242
+  size: 59, 104
+  orig: 1024, 1032
+  offset: 666, 203
+  index: -1
+Axe
+  rotate: false
+  xy: 859, 92
+  size: 139, 72
+  orig: 1024, 1032
+  offset: 659, 235
+  index: -1
+Bag
+  rotate: false
+  xy: 538, 9
+  size: 73, 95
+  orig: 1024, 1992
+  offset: 825, 872
+  index: -1
+Body
+  rotate: false
+  xy: 929, 154
+  size: 94, 39
+  orig: 1024, 1032
+  offset: 772, 230
+  index: -1
+Death
+  rotate: false
+  xy: 358, 7
+  size: 49, 32
+  orig: 1024, 1032
+  offset: 753, 370
+  index: -1
+Feet
+  rotate: false
+  xy: 612, 15
+  size: 93, 91
+  orig: 1024, 964
+  offset: 762, 697
+  index: -1
+Head
+  rotate: false
+  xy: 443, 7
+  size: 99, 100
+  orig: 1024, 1032
+  offset: 764, 306
+  index: -1
+Head_damaged
+  rotate: false
+  xy: 2, 326
+  size: 1024, 1032
+  orig: 1024, 1032
+  offset: 0, 0
+  index: -1
+L_arm
+  rotate: false
+  xy: 932, 3
+  size: 47, 96
+  orig: 1024, 1032
+  offset: 872, 206
+  index: -1
+L_eyebrow
+  rotate: false
+  xy: 399, 3
+  size: 16, 12
+  orig: 1024, 1032
+  offset: 765, 406
+  index: -1
+L_eyelid
+  rotate: false
+  xy: 438, 13
+  size: 18, 29
+  orig: 1024, 1032
+  offset: 747, 389
+  index: -1
+L_hand
+  rotate: false
+  xy: 583, 5
+  size: 26, 22
+  orig: 1024, 1032
+  offset: 689, 266
+  index: -1
+L_iris
+  rotate: false
+  xy: 376, 6
+  size: 10, 17
+  orig: 1024, 1032
+  offset: 737, 381
+  index: -1
+L_socket
+  rotate: false
+  xy: 609, 14
+  size: 16, 27
+  orig: 1024, 1032
+  offset: 738, 376
+  index: -1
+Mouth
+  rotate: false
+  xy: 837, 16
+  size: 27, 21
+  orig: 1024, 1032
+  offset: 760, 330
+  index: -1
+Mouth_closed
+  rotate: false
+  xy: 647, 5
+  size: 24, 18
+  orig: 1024, 1032
+  offset: 755, 352
+  index: -1
+R_arm
+  rotate: false
+  xy: 969, 48
+  size: 57, 82
+  orig: 1024, 900
+  offset: 703, 678
+  index: -1
+R_eyebrow
+  rotate: false
+  xy: 427, 3
+  size: 15, 10
+  orig: 1024, 1032
+  offset: 747, 407
+  index: -1
+R_eyelid
+  rotate: false
+  xy: 405, 11
+  size: 32, 31
+  orig: 1024, 1032
+  offset: 766, 374
+  index: -1
+R_iris
+  rotate: false
+  xy: 673, 3
+  size: 12, 20
+  orig: 1024, 1032
+  offset: 763, 376
+  index: -1
+R_socket
+  rotate: false
+  xy: 489, 5
+  size: 24, 29
+  orig: 1024, 1032
+  offset: 778, 370
+  index: -1
+Tie
+  rotate: false
+  xy: 845, 35
+  size: 88, 62
+  orig: 1024, 1032
+  offset: 766, 296
+  index: -1
+Torso
+  rotate: false
+  xy: 358, 40
+  size: 96, 106
+  orig: 1024, 1032
+  offset: 772, 223
+  index: -1
+bow
+  rotate: false
+  xy: 887, 162
+  size: 136, 78
+  orig: 1024, 1544
+  offset: 672, 865
+  index: -1
+bow_charge
+  rotate: false
+  xy: 879, 207
+  size: 137, 74
+  orig: 1024, 772
+  offset: 673, 486
+  index: -1
+template
+  rotate: false
+  xy: 2, 2
+  size: 354, 322
+  orig: 1024, 1020
+  offset: 76, 251
+  index: -1
