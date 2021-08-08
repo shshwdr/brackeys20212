@@ -1,3 +1,4 @@
+using Cinemachine;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -5,15 +6,18 @@ using UnityEngine;
 public class CameraControl : MonoBehaviour
 {
     public float minCemeraZoomIn;
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
+    public float maxCemeraZoomIn;
 
-    // Update is called once per frame
-    void Update()
+    CinemachineVirtualCamera camera;
+
+    public float scrollZoomScale = 1;
+
+    private void Awake()
     {
-        
+        camera = GetComponent<CinemachineVirtualCamera>();
+    }
+    public void Update()
+    {
+        camera.m_Lens.OrthographicSize  = Mathf.Clamp( camera.m_Lens.OrthographicSize + Input.mouseScrollDelta.y * scrollZoomScale,minCemeraZoomIn,maxCemeraZoomIn);
     }
 }
